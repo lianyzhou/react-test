@@ -1,0 +1,37 @@
+{
+  "name": "react-test",
+  "version": "0.0.1",
+  "description": "react-test",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "babel": "5.8.34",
+    "classnames": "2.2.1",
+    "extend": "3.0.0",
+    "history": "1.13.1",
+    "jquery": "^2.1.4",
+    "moment": "2.11.1",
+    "object-assign": "4.0.1",
+    "q": "1.4.1",
+    "react": "0.14.7",
+    "react-dom": "0.14.3",
+    "underscore": "^1.8.3",
+    "react-addons-css-transition-group":"0.14.7",
+    "react-prefixr":"0.1.0",
+    "react-addons-linked-state-mixin":"0.14.7"
+  },
+  "devDependencies": {
+    "babel-core": "5.8.33",
+    "babel-loader": "5.4.0",
+    "css-loader": "0.23.1",
+    "file-loader": "0.8.5",
+    "less": "2.5.3",
+    "less-loader": "2.2.2",
+    "node-babel": "~0.1.2",
+    "node-sass": "^3.4.2",
+    "raw-loader": "0.5.1",
+    "react-hot-loader": "1.3.0",
+    "resolve-url-loader": "1.4.3",
+    "sass-loader": "3.1.2",
+    "style-loader": "0.13.0"
+  }
+}
