@@ -28,9 +28,9 @@ var App2 = React.createClass({
         return (
             <div>
                 <input type="text" value={this.state.message} onChange={this.handleChange}/>
-                <span>{this.state.message}</span>
+                <span>{this.state.message}</span> aaa
                 <input type="checkbox" checked={this.state.checkbox} onChange={this.handleCheckbox}/>
-                <span>{this.state.checkbox?'checked':'unchecked'}</span>
+                <span>{this.state.checkbox?'checked':'unchecked'}</span> bbb
                 <input type="radio" name="gender" checked={this.state.gender==='male'} 
                     onChange={this.handleRadio.bind(this , "male")}/>男
                 <input type="radio" name="gender" checked={this.state.gender==='female'} 

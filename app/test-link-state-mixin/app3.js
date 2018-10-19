@@ -14,9 +14,9 @@ var App3 = React.createClass({
         return (
             <div>
                 <input type="text" valueLink={this.linkState("message")}/>
-                {this.state.message}
+                {this.state.message} aaa
                 <input type="checkbox" checkedLink={this.linkState("checkbox")}/>
-                {this.state.checkbox ? 'checked' : 'unchecked'}
+                {this.state.checkbox ? 'checked' : 'unchecked'} bbb
             </div>
         );
     }
