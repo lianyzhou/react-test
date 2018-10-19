@@ -3,8 +3,8 @@ var App = React.createClass({
     render : function() {
         return (
             <div>
-                <input type="text" />
-                <input type="checkbox" />
+                <input type="text" /> aaa
+                <input type="checkbox" /> bbb
             </div>
         );
     }
